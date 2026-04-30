@@ -1,9 +1,0 @@
-name = "signature"
-main = "worker.js"
-compatibility_date = "2025-01-01"
-
-# This binding name MUST match the code: env.SIG_ASSETS
-# Replace the id with your Cloudflare KV namespace ID.
-[[kv_namespaces]]
-binding = "SIG_ASSETS"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
