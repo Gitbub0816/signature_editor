@@ -1,9 +1,11 @@
-name = "signature"
+name = "signature-editor"
 main = "worker.js"
-compatibility_date = "2025-01-01"
+compatibility_date = "2026-04-30"
 
-# This binding name MUST match the code: env.SIG_ASSETS
-# Replace the id with your Cloudflare KV namespace ID.
 [[kv_namespaces]]
 binding = "SIG_ASSETS"
-id = "b6395c0429124763bc03e77a73f6c505"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
