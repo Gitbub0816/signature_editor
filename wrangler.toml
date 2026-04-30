@@ -4,7 +4,7 @@ compatibility_date = "2026-04-30"
 
 [[kv_namespaces]]
 binding = "SIG_ASSETS"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "b6395c0429124763bc03e77a73f6c505"
 
 [assets]
 directory = "./public"
