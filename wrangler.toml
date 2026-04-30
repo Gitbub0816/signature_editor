@@ -6,4 +6,4 @@ compatibility_date = "2025-01-01"
 # Replace the id with your Cloudflare KV namespace ID.
 [[kv_namespaces]]
 binding = "SIG_ASSETS"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "b6395c0429124763bc03e77a73f6c505"
