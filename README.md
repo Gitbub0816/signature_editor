@@ -1,15 +1,5 @@
 # Signature Editor
 
-Cloudflare Worker + Worker Assets + KV image hosting.
+This version keeps the existing `public/icons` pack and replaces the app logic with a cleaner card-based builder.
 
-Paths:
-- `/` redirects to `/editor/`
-- `/editor/` opens the editor
-- `/icons/...` serves the bundled PNG icon pack
-- `/u/<name>` serves uploaded images from KV
-
-Required bindings:
-- KV binding: `SIG_ASSETS`
-- Assets binding: `ASSETS` from `./public`
-
-Keep your real KV namespace ID in `wrangler.toml` before deploying.
+Do not delete `public/icons` if you already uploaded the icon pack.
